@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include <stdio.h>
+enum Sex
+{
+	MALE,
+	FEMALE
+
+
+};
+int main()
+{
+	
+
+	printf("%d\n", MALE);
+	return 0;
+
+
+
+}
