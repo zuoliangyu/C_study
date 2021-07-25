@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	char arr1[] = "abd";
+	char arr2[] = { 'a','b','d' };
+	printf("%d\n", strlen(arr1));
+	printf("%d\n", strlen(arr2));
+	
+	return 0;
+}
+
