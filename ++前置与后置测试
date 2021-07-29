@@ -1,0 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+
+int main()
+{
+	int a = 5;
+	int b = a++;//后置++为先赋值，再++
+	int c = ++a;//前置++为先++，再赋值
+	printf("a=%d\n,b=%d\n,c=%d\n", a, b,c);
+
+	return 0;
+}
