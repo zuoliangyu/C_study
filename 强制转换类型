@@ -1,0 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+
+int main()
+{
+	int a =(int) 30.11;//强制转换类型
+	return 0;
+}
