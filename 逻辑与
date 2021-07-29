@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int a = 5;
+	int b = 6;
+	int c = a && b;//只是判断逻辑，结果为1（真）0（假）
+	int d = a & b;
+	printf("c=%d\n d=%d\n", c, d);
+
+
+	return 0;
+}
