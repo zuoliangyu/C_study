@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+struct Book
+{
+	char name[20];//c语言程序设计
+    short prize;
+};
+int main()
+{
+	struct Book b1 = { "C语言程序设计",55 };
+		printf("书名：%s\n", b1.name);
+	printf("价格：%d\n", b1.prize);
+	//结构体练习
+	return 0;
+}
