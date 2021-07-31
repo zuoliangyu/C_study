@@ -1,0 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int a = 10;
+	printf("%p\n", &a);//寻找a的地址
+	return 0;
+}
