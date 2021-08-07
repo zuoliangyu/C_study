@@ -1,0 +1,24 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int input = 0;
+	
+	
+	printf("请输入性别(boy=1,gril=2):>");
+	scanf("%d",&input);
+	switch (input)
+	{
+	case 1:
+		printf("you are a good man\n");
+		break;
+	case 2:
+		printf("you are a nice woman\n");
+		break;
+	default:
+		printf("are you kidding me?\\n");
+		break;
+
+	}
+	return 0;
+}
