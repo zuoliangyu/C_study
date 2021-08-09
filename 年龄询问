@@ -1,0 +1,25 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int input = 0;
+
+
+	printf("年龄:>");
+	scanf("%d", &input);
+	if (0<input <= 18)
+	{
+		printf("you are kid\n");
+	}
+	else if (18 < input < 50)
+	{
+		printf("you are adult\n");
+	}
+	else
+	{
+		printf("you are good\n");
+
+
+	}
+	return 0;
+}
