@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include <stdio.h>
+int main()
+{
+	int input = 0;
+
+	printf("你喜欢同性吗？(yes or no) >:");
+	scanf("%d", &input);
+	if (input = 'yes')
+		printf("加油，不要在意别人眼光\n");
+	
+	else if (input ='no')
+		printf("谢谢参与调查\n");
+
+	else
+		printf("输入错误\n");
+
+	return 0;
+}
