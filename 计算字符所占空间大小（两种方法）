@@ -1,0 +1,11 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+	char arr4[] = "abdcef";
+	printf("%d\n", sizeof(arr4));//计算arr4所占空间大小（含/0）
+	printf("%d\n", strlen(arr4));//计算arr4所占空间大小（不含/0）
+
+	return 0;
+}
