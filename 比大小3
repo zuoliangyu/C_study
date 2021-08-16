@@ -1,0 +1,30 @@
+
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include <stdio.h>
+
+int Max(int x, int y)
+{
+	if (x > y)
+		return x;
+	else
+		return y;
+
+}//自定义函数
+
+
+int main()
+{
+	int num1 = 0;
+	printf("please input num1>:");
+	scanf("%d", &num1);
+	int num2 = 0;
+	printf("printf input num2>:");
+	scanf("%d", &num2);
+	int max = 0;
+	max = Max(num1, num2);
+	printf("max=%d\n", max);
+
+
+	return 0;
+}
