@@ -1,0 +1,30 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int input = 0;
+	printf("please input a(0-10)>:");
+	scanf("%d", &input);	
+	switch (input)
+	{
+	case 0:
+	case 1:
+	case 2:
+	case 3:
+	case 4:
+	case 5:
+			printf("it is small\n");
+			break;
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+			printf("it is big\n");
+			break;
+	default:
+			printf("inputword is wrong\n");
+			break;
+	}
+	return 0;
+}
