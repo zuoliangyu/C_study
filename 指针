@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include <windows.h>
+int main()
+{
+
+	int a = 10;
+	int* p = &a;
+	system("pause");
+	
+	int b = *p;
+	*p = 20;
+
+	return 0;
+}
