@@ -1,0 +1,25 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int a = 5;//定义a
+	/*int* r = &a;
+	printf("r=%d\n", r);*///一步到位（查找a地址）
+	int* p; //创建p
+	p = &a;//定义p为a取地址
+	printf("p=%d\n", p); ///查找地址
+	printf("*p=%d\n", *p);//提取*p即a的内容
+    int** q;
+	q = &p;
+	printf("q=%d\n", q);
+	int*** j;
+	j = &q;
+	printf("j=%d\n", j);//总结：***->**.**->*,*->实体(以此类推）；
+	int**** m;
+	m = &j;
+	printf("m=%d\n", m);
+	printf("*m=%d\n", *m);//总结：*m取得值为j的值，即为q的地址
+
+
+	return 0;
+}
