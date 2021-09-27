@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int x = 0;
+	printf("请输入第一个值：");
+	scanf("%d\n", &x);
+	int y = 0;
+	printf("请输入第二个值：");
+	scanf("%d\n", &y);
+	int sam = 0;
+	sam = x + y;
+	printf("它们的和为:%d\n", sam);
+	return 0;
+}
