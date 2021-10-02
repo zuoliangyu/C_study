@@ -1,0 +1,22 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    double x1, y1, x2, y2, dx, dy, dis;
+    printf("Input Point1(x y):");
+    scanf("%lf %lf", &x1, &y1);
+
+    printf("Input Point2(x y):");
+    scanf("%lf %lf", &x2, &y2);
+
+    dx = x1 - x2;
+    dy = y1 - y2;
+
+    dis = sqrt(dx * dx + dy * dy);
+
+    printf("Dis. = %lf\n", dis);
+
+
+    return 0;
+}
