@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main() {
+    char a, b, c;
+    int d, e, f,D,E,F;
+    scanf("%c%c%c", &a, &b, &c);
+    d = a;
+    e = b;
+    f = c;
+    D = (D = d > e ? d : e) > f ? D : e;
+    E = (E = d < e ? d : e) < f ? E : e;
+    F = d + e + f - D - E;
+    printf("%c%c%c", E, F, D);
+     
+            
+
+
+    return 0;
+}
