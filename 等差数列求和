@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+
+int main()
+{
+	long long a1, d, n, an, Sn;
+	printf("please input a1,d,n:");
+	scanf_s("%d%d%d", &a1, &d,&n);
+	an = a1 + (n - 1) * d;
+	Sn = (a1 + an) * n / 2;
+	printf("%d", Sn);
+
+	return 0;
+}
