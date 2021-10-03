@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int a, b;
+	printf("please input a:");
+	scanf_s("%d", &a);
+	printf("printf input b:");
+	scanf_s("%d", &b);
+	int x = -b / a;
+	printf("x=%d\n", x);
+	return 0;
+}
