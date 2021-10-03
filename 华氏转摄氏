@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS 1 
+#include<stdio.h>
+int main()
+{
+	float F,C;
+	printf("please input F:");
+	scanf_s("%f", &F);
+	C = 5 * (F - 32) / 9;
+	printf("C=%f\n", C);
+
+
+	return 0;
+
+}
