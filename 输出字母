@@ -1,0 +1,18 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int a = 0;
+	for (a = 65; a < 91; a++)
+	printf("%c", a);
+	printf("\n");
+	int b = 96;
+	while (b <= 121)
+	{
+		b++;
+
+		printf("%c", b);
+	}
+
+	return 0;
+}
