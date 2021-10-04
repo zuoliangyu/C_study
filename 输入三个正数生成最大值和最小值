@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int a, b, c, temp;
+	printf("please input a,b,c:");
+	scanf("%d%d%d", &a, &b, &c);
+	while (a > 0&& b > 0&& c > 0)
+	{
+		if (a > b)temp = a, a = b, b = temp;
+		if (b > c)temp = b, b = c, c = temp;
+		if (a > b)temp = a, a = b, b = temp;
+		printf("min=%d%d%d\n", a, b, c);
+		printf("max=%d%d%d", c, b, a);
+		break;
+	}
+	
+
+	return 0;
+}
