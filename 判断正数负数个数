@@ -1,0 +1,31 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int n, i, j,x,y,z;
+	x = y = z = 0;
+	printf("please input n:");
+	scanf("%d", &n);
+	printf("please input your number:");
+	for (i = 0; i < n; i++)
+	{
+		scanf("%d",& j);
+		if (j > 0)
+		{
+			x++;
+			
+		}
+		else if (j == 0)
+		{
+			y++;
+			
+		}
+		else
+		{
+			z++;
+			
+		}
+	}
+	printf("正数=%d,零=%d,负数=%d", x ,y ,z);
+	return 0;
+}
