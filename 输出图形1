@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+    int i, j, k;
+    for (i = 0; i <= 4; i++)
+    {
+        for (j = 1; j <= 4 - i; j++)putchar(' ');
+        for (j = 1; j <= 2 * i - 1; j++)putchar('*');
+        putchar('\n');
+    }
+
+    for (i =3; 0<i; i--)
+    {
+        for (k = 1; k <= 4-i; k++)putchar(' ');
+        for (k = 1; k <= 2*i-1; k++)putchar('*');
+        putchar('\n');
+    }
+	return 0;
+}
