@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int num, i, j, flag,q;
+    flag = 0;
+    cin >> num;
+    while (1) {
+        if (num == 1)
+            break;
+        for (i = 2; i <= num / 2; i++) {
+            for (j = i; j < num; j++) {
+                if (i * j == num)
+                    flag = 1;
+            }
+        }
+        break;
+    }
+    if (flag == 1)
+        cout << "This is not a prime number" << endl;
+    else
+        cout << "This is a prime number" << endl;
+    return 0;
+}
